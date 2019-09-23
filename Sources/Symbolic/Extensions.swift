@@ -6,7 +6,7 @@ import Foundation
     @available(watchOS 6.0, *)
     @available(iOS 13.0, *)
     @available(tvOS 13.0, *)
-    @available(UIKitForMac 13.0, *)
+    @available(macCatalyst 13.0, *)
     public extension UIImage {
         convenience init(symbol: DrawableSymbol) {
             self.init(systemName: symbol.name)!
@@ -37,7 +37,7 @@ import Foundation
     @available(watchOS 6.0, *)
     @available(iOS 13.0, *)
     @available(tvOS 13.0, *)
-    @available(UIKitForMac 13.0, *)
+    @available(macCatalyst 13.0, *)
     public extension Image {
         init(symbol: DrawableSymbol) {
             self.init(systemName: symbol.name)
